@@ -12,7 +12,7 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
     )
-    
+
     """Sorts the products by SKU using the ordering attribute """
     ordering = ('sku',)
 
