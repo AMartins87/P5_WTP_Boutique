@@ -7,6 +7,7 @@ from products.models import Product
 from profiles.models import UserProfile
 from .models import Order, OrderLineItem
 
+
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
 
