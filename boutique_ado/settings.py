@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
+import dj_database_url
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -104,7 +105,7 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-CCOUNT_AUTHENTICATION_METHOD = 'username_email'  # The account authentication method is what tells allauth that we want to allow
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'  # The account authentication method is what tells allauth that we want to allow
                                                 # authentication using either usernames or emails.
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
