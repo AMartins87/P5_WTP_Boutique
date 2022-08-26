@@ -119,6 +119,7 @@ LOGIN_REDIRECT_URL = '/'  # url to redirect back to after logging in.
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-amartins87-p5wtpboutiqu-3nk32ymermq.ws-eu63.gitpod.io/']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
